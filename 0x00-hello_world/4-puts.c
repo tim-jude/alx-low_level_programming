@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
-* main orint in push
+* main - print the string in the push function
 *
-* use main function
-* print "Programming is like building a multilingual puzzle
-* return: 0
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
 */
 int main(void)
-{
-   puts("/"Programming is like building a multilingual puzzle");
-   return (0);
+{  
+        puts("\"Programming is like building a multilingual puzzle");
+        return (0);
 }
