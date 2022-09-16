@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - prints a number or fizz
+* main - prints number or fizz
 * or buzz or FizzBuzz
 *
 *
@@ -14,13 +14,13 @@ int main(void)
 
 	while (num++ < 100)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if ((num % 3 == 0) && (num % 5 ==0))
 		{
 			printf("FizzBuzz ");
 		}
 		else if ((num % 3) == 0)
 		{
-			printf("Fizz ");
+			printf("Buzz ");
 		}
 		else if ((num % 5) == 0)
 		{
@@ -35,7 +35,7 @@ int main(void)
 		}
 		else
 		{
-			printd("%d ", num);
+			printf("%d ", num);
 		}
 	}
 	printf("\n");
