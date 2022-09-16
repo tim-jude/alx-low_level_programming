@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* print_triangle - prints a triangle
-* @size: parameters
+* print_triangle - print triangle
+* @size - parameters
 * Return: nothing
 */
 
@@ -20,7 +20,7 @@ void print_triangle(int size)
 				putchar(' ');
 			}
 
-			for (inc2 = 0; inc2 < inc1; inc2++
+			for (inc2 = 0; inc2 < inc1; inc2++)
 			{
 				putchar('#');
 			}
