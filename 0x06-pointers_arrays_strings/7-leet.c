@@ -2,15 +2,15 @@
 
 /**
  * leet - encodes string to 1337
- * @s: string to be encoded
+ * @s: string
  *
- * Return: add for s
+ * Return: add of s
  */
 char *leet(char *s)
-{
+}
 	int i, j;
-	char a() = "aAeEoOtTlL";
-	char b() = "4433007711";
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
 	for (i = 0; *(s + i); i++)
 	{
